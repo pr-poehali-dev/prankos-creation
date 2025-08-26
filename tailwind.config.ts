@@ -18,7 +18,17 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['Roboto Mono', 'monospace'],
+				sans: ['Roboto Mono', 'monospace'],
+			},
 			colors: {
+				// Cyberpunk Colors
+				'matrix-green': 'hsl(var(--matrix-green))',
+				'neon-cyan': 'hsl(var(--neon-cyan))',
+				'electric-blue': 'hsl(var(--electric-blue))',
+				'neon-pink': 'hsl(var(--neon-pink))',
+				'dark-bg': 'hsl(var(--dark-bg))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -88,7 +98,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glitch': 'glitch 0.3s infinite',
+				'neon-flicker': 'neon-flicker 2s infinite alternate',
+				'matrix-rain': 'matrix-rain 3s linear infinite'
 			}
 		}
 	},
